@@ -1,0 +1,25 @@
+cloud:
+  aws:
+    credentials:
+      access-key: AKIAYR36TVZXHUDML6M4
+      secret-key: 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
+    region:
+     static: ap-south-1
+    stack:     
+      auto: false
+
+application:
+  bucket:
+    name: nagab
+
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2MB
+      max-file-size: 5MB
+      max-request-size: 10MB
+
+server:
+  port: 8090
